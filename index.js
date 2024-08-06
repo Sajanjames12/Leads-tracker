@@ -1,4 +1,4 @@
-import { initializeApp } from "https://lead-tracker-app-61e3a-default-rtdb.europe-west1.firebasedatabase.app"
+import { initializeApp } from "https://lead-tracker-app-61e3a-default-rtdb.europe-west1.firebasedatabase.app/"
 
 import { getDatabase,
          ref,
