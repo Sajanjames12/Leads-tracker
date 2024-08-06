@@ -1,4 +1,4 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js/"
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js"
 
 import { getDatabase,
          ref,
@@ -48,6 +48,7 @@ deleteBtn.addEventListener("dblclick", function() {
 })
 
 inputBtn.addEventListener("click", function() {
+    console.log("MINE")
     push(referenceInDB, inputEl.value)
     inputEl.value = "" 
 })
