@@ -48,7 +48,6 @@ deleteBtn.addEventListener("dblclick", function() {
 })
 
 inputBtn.addEventListener("click", function() {
-    console.log("MINE")
     push(referenceInDB, inputEl.value)
     inputEl.value = "" 
 })
