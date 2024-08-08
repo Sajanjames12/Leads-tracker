@@ -1,3 +1,7 @@
+This is a Lead tracking app made as part of scrimba javascript learning curriculum
+You can find it here https://leads-tracker-app-james.netlify.app/
+
+
 # Getting Started
 Install the dependencies and run the project
 ```
